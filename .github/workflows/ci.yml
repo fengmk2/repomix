@@ -178,7 +178,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       # Run tests directly instead of using npm scripts with node --run which is not supported in older Node versions
-      - run: ./node_modules/.bin/vitest --reporter=verbose
+      # - run: ./node_modules/.bin/vitest --reporter=verbose
+      - run: npm exec vite test --reporter=verbose
         env:
           CI_OS: ${{ runner.os }}
 

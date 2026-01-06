@@ -1,11 +1,11 @@
 import type { Stats } from 'node:fs';
 import * as fs from 'node:fs/promises';
 import path from 'node:path';
+import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import iconv from 'iconv-lite';
 import isBinaryPath from 'is-binary-path';
 import { isBinaryFile } from 'isbinaryfile';
 import jschardet from 'jschardet';
-import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { collectFiles } from '../../../src/core/file/fileCollect.js';
 import type { FileCollectTask } from '../../../src/core/file/workers/fileCollectWorker.js';
 import fileCollectWorker from '../../../src/core/file/workers/fileCollectWorker.js';

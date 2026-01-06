@@ -1,5 +1,5 @@
-import pc from 'picocolors';
 import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
+import pc from 'picocolors';
 import { logger, repomixLogLevels } from '../../src/shared/logger.js';
 
 vi.mock('picocolors', () => ({
