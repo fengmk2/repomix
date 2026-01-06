@@ -1,6 +1,6 @@
 import * as fs from 'node:fs/promises';
 import path from 'node:path';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import type { DefaultActionRunnerResult } from '../../../src/cli/actions/defaultAction.js';
 import { copyOutputToCurrentDirectory, runRemoteAction } from '../../../src/cli/actions/remoteAction.js';
 import { createMockConfig } from '../../testing/testUtils.js';

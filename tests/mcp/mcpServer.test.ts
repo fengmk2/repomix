@@ -1,6 +1,6 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { getVersion } from '../../src/core/file/packageJsonParse.js';
 import { createMcpServer, runMcpServer } from '../../src/mcp/mcpServer.js';
 import { logger } from '../../src/shared/logger.js';

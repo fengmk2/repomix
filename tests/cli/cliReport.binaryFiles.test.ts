@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { reportSkippedFiles } from '../../src/cli/cliReport.js';
 import type { SkippedFileInfo } from '../../src/core/file/fileCollect.js';
 import { logger } from '../../src/shared/logger.js';

@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { Spinner } from '../../src/cli/cliSpinner.js';
 import type { CliOptions } from '../../src/cli/types.js';
 

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import { parseHumanSizeToBytes } from '../../src/shared/sizeParse.js';
 
 describe('parseHumanSizeToBytes', () => {

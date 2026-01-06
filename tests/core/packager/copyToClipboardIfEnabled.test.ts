@@ -1,6 +1,6 @@
 import { spawn } from 'node:child_process';
 import clipboard from 'clipboardy';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import { copyToClipboardIfEnabled } from '../../../src/core/packager/copyToClipboardIfEnabled.js';
 import type { RepomixProgressCallback } from '../../../src/shared/types.js';

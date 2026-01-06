@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { pack } from '../../src/core/packager.js';
 import { createMockConfig } from '../testing/testUtils.js';
 

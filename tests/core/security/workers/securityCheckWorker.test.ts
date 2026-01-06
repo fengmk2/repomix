@@ -1,5 +1,5 @@
 import type { SecretLintCoreConfig } from '@secretlint/types';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { createSecretLintConfig, runSecretLint } from '../../../../src/core/security/workers/securityCheckWorker.js';
 
 describe('securityCheck', () => {

@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { RenderContext } from '../../../src/core/output/outputGeneratorTypes.js';
 import {
   generateFilesSection,

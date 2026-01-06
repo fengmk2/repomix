@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { getRemoteRefs } from '../../../src/core/git/gitRemoteHandle.js';
 import { logger } from '../../../src/shared/logger.js';
 

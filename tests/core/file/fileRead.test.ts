@@ -1,7 +1,7 @@
 import * as fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import { afterEach, beforeEach, describe, expect, test } from 'vitest';
+import { afterEach, beforeEach, describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { readRawFile } from '../../../src/core/file/fileRead.js';
 
 describe('readRawFile', () => {

@@ -4,7 +4,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { globby } from 'globby';
 import { minimatch } from 'minimatch';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import {
   escapeGlobPattern,
   getIgnoreFilePatterns,

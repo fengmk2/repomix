@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { calculateOutputMetrics } from '../../../src/core/metrics/calculateOutputMetrics.js';
 import { countTokens, type TokenCountTask } from '../../../src/core/metrics/workers/calculateMetricsWorker.js';
 import { logger } from '../../../src/shared/logger.js';

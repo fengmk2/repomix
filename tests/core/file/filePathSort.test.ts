@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { sortPaths } from '../../../src/core/file/filePathSort.js';
 
 describe('filePathSort', () => {

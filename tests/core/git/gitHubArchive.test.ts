@@ -3,7 +3,7 @@ import type * as fsPromises from 'node:fs/promises';
 import * as path from 'node:path';
 import { Transform } from 'node:stream';
 import type { pipeline as pipelineType } from 'node:stream/promises';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import {
   type ArchiveDownloadOptions,
   downloadGitHubArchive,

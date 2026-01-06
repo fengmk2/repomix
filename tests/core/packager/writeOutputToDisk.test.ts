@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import { writeOutputToDisk } from '../../../src/core/packager/writeOutputToDisk.js';
 

@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { buildTokenCountTree, type FileWithTokens } from '../../../src/core/tokenCount/buildTokenCountStructure.js';
 import type { DirectoryTokenInfo, FileTokenInfo, TokenCountOutput } from '../../../src/core/tokenCount/types.js';
 

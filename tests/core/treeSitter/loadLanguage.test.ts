@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { Language } from 'web-tree-sitter';
 import { loadLanguage } from '../../../src/core/treeSitter/loadLanguage.js';
 

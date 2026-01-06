@@ -1,5 +1,8 @@
 name: autofix.ci
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 on:
   pull_request:
   push:

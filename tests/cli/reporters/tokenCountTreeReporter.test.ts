@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, type Mock, test, vi } from 'vitest';
+import { beforeEach, describe, expect, type Mock, test, vi } from '@voidzero-dev/vite-plus/test';
 import { reportTokenCountTree } from '../../../src/cli/reporters/tokenCountTreeReporter.js';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import type { ProcessedFile } from '../../../src/core/file/fileTypes.js';

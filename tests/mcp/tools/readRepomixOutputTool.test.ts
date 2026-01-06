@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import * as mcpToolRuntime from '../../../src/mcp/tools/mcpToolRuntime.js';
 import { registerReadRepomixOutputTool } from '../../../src/mcp/tools/readRepomixOutputTool.js';
 

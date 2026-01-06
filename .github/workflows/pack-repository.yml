@@ -1,5 +1,8 @@
 name: Pack repository with Repomix
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 on:
   workflow_dispatch:
   push:

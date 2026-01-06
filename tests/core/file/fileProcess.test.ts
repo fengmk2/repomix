@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import type { FileManipulator } from '../../../src/core/file/fileManipulate.js';
 import { processFiles } from '../../../src/core/file/fileProcess.js';
 import { processContent } from '../../../src/core/file/fileProcessContent.js';

@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { produceOutput } from '../../../src/core/packager/produceOutput.js';
 import { createMockConfig } from '../../testing/testUtils.js';
 

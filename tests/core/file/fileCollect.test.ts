@@ -5,7 +5,7 @@ import iconv from 'iconv-lite';
 import isBinaryPath from 'is-binary-path';
 import { isBinaryFile } from 'isbinaryfile';
 import jschardet from 'jschardet';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { collectFiles } from '../../../src/core/file/fileCollect.js';
 import type { FileCollectTask } from '../../../src/core/file/workers/fileCollectWorker.js';
 import fileCollectWorker from '../../../src/core/file/workers/fileCollectWorker.js';

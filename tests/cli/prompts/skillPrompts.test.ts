@@ -1,6 +1,6 @@
 import os from 'node:os';
 import path from 'node:path';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import {
   getSkillBaseDir,
   getSkillLocation,
