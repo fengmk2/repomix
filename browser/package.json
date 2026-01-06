@@ -18,7 +18,7 @@
     "generate-icons": "tsx scripts/generate-icons.ts",
     "lint": "npm run lint-tsc",
     "lint-tsc": "tsgo --noEmit",
-    "test": "vitest",
+    "test": "vite test",
     "archive": "git archive HEAD -o ./storage/source.zip"
   },
   "keywords": [
@@ -40,10 +40,16 @@
     "sharp": "^0.34.5",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.16",
-    "wxt": "^0.20.13"
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "wxt": "^0.20.13",
+    "@voidzero-dev/vite-plus": "latest"
   },
   "engines": {
     "node": ">=24.0.1"
+  },
+  "packageManager": "npm@11.7.0",
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   }
 }
