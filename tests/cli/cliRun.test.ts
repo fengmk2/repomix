@@ -1,5 +1,5 @@
+import { afterEach, beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { program } from 'commander';
-import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import * as defaultAction from '../../src/cli/actions/defaultAction.js';
 import * as initAction from '../../src/cli/actions/initAction.js';
 import * as remoteAction from '../../src/cli/actions/remoteAction.js';

@@ -24,11 +24,11 @@
     "build-bun": "bun run build",
     "lint": "node --run lint-biome && node --run lint-oxlint && node --run lint-ts && node --run lint-secretlint",
     "lint-biome": "biome check --write",
-    "lint-oxlint": "oxlint --fix",
+    "lint-oxlint": "vite lint --fix",
     "lint-ts": "tsgo --noEmit",
     "lint-secretlint": "secretlint \"**/*\" --secretlintignore .gitignore",
-    "test": "vitest",
-    "test-coverage": "vitest run --coverage",
+    "test": "vite test",
+    "test-coverage": "vite test run --coverage",
     "repomix": "node --run build && node --enable-source-maps --trace-warnings bin/repomix.cjs",
     "repomix-src": "node --run repomix -- --include 'src,tests'",
     "repomix-website": "node --run repomix -- --include 'website'",
@@ -110,16 +110,21 @@
     "@typescript/native-preview": "^7.0.0-dev.20251226.1",
     "@vitest/coverage-v8": "^4.0.16",
     "git-up": "^8.1.1",
-    "oxlint": "^1.35.0",
     "rimraf": "^6.1.2",
     "secretlint": "^11.2.5",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vite": "^7.3.0",
-    "vitest": "^4.0.16"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb",
+    "@voidzero-dev/vite-plus": "0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb"
   },
   "engines": {
     "node": ">=20.0.0",
     "yarn": ">=1.22.22"
+  },
+  "packageManager": "npm@11.7.0",
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb"
   }
 }

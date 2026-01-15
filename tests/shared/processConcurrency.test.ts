@@ -1,6 +1,6 @@
 import os from 'node:os';
+import { beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { Tinypool } from 'tinypool';
-import { beforeEach, describe, expect, it, vi } from 'vitest';
 import {
   createWorkerPool,
   getProcessConcurrency,

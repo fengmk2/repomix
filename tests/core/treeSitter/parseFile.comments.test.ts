@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { parseFile } from '../../../src/core/treeSitter/parseFile.js';
 import { createMockConfig } from '../../testing/testUtils.js';
 

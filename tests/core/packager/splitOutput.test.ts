@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { pack } from '../../../src/core/packager.js';
 import { createMockConfig } from '../../testing/testUtils.js';
 

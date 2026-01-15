@@ -1,5 +1,5 @@
 import process from 'node:process';
-import { afterEach, beforeEach, describe, expect, it, type MockedFunction, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, type MockedFunction, vi } from '@voidzero-dev/vite-plus/test';
 import { buildCliConfig, runDefaultAction } from '../../../src/cli/actions/defaultAction.js';
 import { Spinner } from '../../../src/cli/cliSpinner.js';
 import type { CliOptions } from '../../../src/cli/types.js';

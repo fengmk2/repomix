@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { ProcessedFile } from '../../../src/core/file/fileTypes.js';
 import { detectTechStack, generateTechStackMd } from '../../../src/core/skill/skillTechStack.js';
 

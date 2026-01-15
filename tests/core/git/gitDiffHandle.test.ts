@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { getGitDiffs, getStagedDiff, getWorkTreeDiff } from '../../../src/core/git/gitDiffHandle.js';
 import { logger } from '../../../src/shared/logger.js';
 import { createMockConfig } from '../../testing/testUtils.js';

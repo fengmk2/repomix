@@ -1,5 +1,5 @@
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import Handlebars from 'handlebars';
-import { describe, expect, test } from 'vitest';
 import { getMarkdownTemplate } from '../../../../src/core/output/outputStyles/markdownStyle.js';
 
 describe('markdownStyle', () => {

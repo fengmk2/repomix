@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { getFileManipulator } from '../../../src/core/file/fileManipulate.js';
 
 describe('fileManipulate', () => {

@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { runMcpAction } from '../../../src/cli/actions/mcpAction.js';
 import { runMcpServer } from '../../../src/mcp/mcpServer.js';
 import { logger } from '../../../src/shared/logger.js';

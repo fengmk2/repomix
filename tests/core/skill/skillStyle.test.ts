@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { generateSkillMd, getSkillTemplate } from '../../../src/core/skill/skillStyle.js';
 
 describe('skillStyle', () => {

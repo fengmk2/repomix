@@ -1,5 +1,8 @@
 name: Memory Benchmark
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 on:
   push:
     branches: [main]

@@ -1,6 +1,6 @@
 import path from 'node:path';
 import { Readable } from 'node:stream';
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import {
   filterValidLines,
   readFilePathsFromStdin,

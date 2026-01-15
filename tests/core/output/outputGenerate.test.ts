@@ -1,6 +1,6 @@
 import process from 'node:process';
+import { describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { XMLParser } from 'fast-xml-parser';
-import { describe, expect, test, vi } from 'vitest';
 import type { ProcessedFile } from '../../../src/core/file/fileTypes.js';
 import { generateOutput } from '../../../src/core/output/outputGenerate.js';
 import { createMockConfig } from '../../testing/testUtils.js';

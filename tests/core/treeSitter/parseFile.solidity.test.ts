@@ -1,4 +1,4 @@
-import { beforeAll, describe, expect, test } from 'vitest';
+import { beforeAll, describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import { LanguageParser } from '../../../src/core/treeSitter/languageParser.js';
 import { parseFile } from '../../../src/core/treeSitter/parseFile.js';

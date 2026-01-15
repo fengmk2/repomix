@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { isGitHubRepository, parseGitHubRepoInfo, parseRemoteValue } from '../../../src/core/git/gitRemoteParse.js';
 import { isValidRemoteValue } from '../../../src/index.js';
 

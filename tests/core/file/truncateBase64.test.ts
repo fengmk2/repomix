@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import { truncateBase64Content } from '../../../src/core/file/truncateBase64.js';
 
 describe('truncateBase64Content', () => {

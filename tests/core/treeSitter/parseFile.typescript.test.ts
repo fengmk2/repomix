@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from 'vitest';
+import { beforeEach, describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { Edit, Language, Node, Point, Query, Range, Tree, TreeCursor } from 'web-tree-sitter';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import { parseFile } from '../../../src/core/treeSitter/parseFile.js';

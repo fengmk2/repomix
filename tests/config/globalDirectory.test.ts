@@ -1,6 +1,6 @@
 import os from 'node:os';
 import path from 'node:path';
-import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { getGlobalDirectory } from '../../src/config/globalDirectory.js';
 
 vi.mock('node:os');

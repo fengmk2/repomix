@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { RepomixConfigMerged } from '../../../../src/config/configSchema.js';
 import type { ProcessedFile } from '../../../../src/core/file/fileTypes.js';
 import { generateOutput } from '../../../../src/core/output/outputGenerate.js';

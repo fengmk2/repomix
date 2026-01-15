@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import type { RawFile } from '../../../src/core/file/fileTypes.js';
 import type { SuspiciousFileResult } from '../../../src/core/security/securityCheck.js';

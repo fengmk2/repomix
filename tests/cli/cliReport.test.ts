@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { reportCompletion, reportSecurityCheck, reportSummary, reportTopFiles } from '../../src/cli/cliReport.js';
 import type { SuspiciousFileResult } from '../../src/core/security/securityCheck.js';
 import type { PackResult } from '../../src/index.js';

@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { loadFileConfig } from '../../src/config/configLoad.js';
 
 describe('configLoad Integration Tests', () => {

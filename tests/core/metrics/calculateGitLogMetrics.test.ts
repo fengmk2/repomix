@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import type { RepomixConfigMerged } from '../../../src/config/configSchema.js';
 import type { GitLogResult } from '../../../src/core/git/gitLogHandle.js';
 import { calculateGitLogMetrics } from '../../../src/core/metrics/calculateGitLogMetrics.js';

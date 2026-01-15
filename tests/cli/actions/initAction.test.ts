@@ -1,7 +1,7 @@
 import * as fs from 'node:fs/promises';
 import path from 'node:path';
 import * as prompts from '@clack/prompts';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { createConfigFile, createIgnoreFile } from '../../../src/cli/actions/initAction.js';
 import { getGlobalDirectory } from '../../../src/config/globalDirectory.js';
 

@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 
 // We need to test the internal functions, so we'll test through the module behavior
 // Mock all worker modules

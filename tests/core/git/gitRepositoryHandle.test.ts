@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import { getFileChangeCount, isGitInstalled, isGitRepository } from '../../../src/core/git/gitRepositoryHandle.js';
 import { logger } from '../../../src/shared/logger.js';
 

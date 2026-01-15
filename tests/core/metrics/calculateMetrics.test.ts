@@ -1,4 +1,4 @@
-import { describe, expect, it, type Mock, vi } from 'vitest';
+import { describe, expect, it, type Mock, vi } from '@voidzero-dev/vite-plus/test';
 import type { ProcessedFile } from '../../../src/core/file/fileTypes.js';
 import type { GitDiffResult } from '../../../src/core/git/gitDiffHandle.js';
 import { calculateMetrics } from '../../../src/core/metrics/calculateMetrics.js';

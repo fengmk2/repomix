@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import type { RawFile } from '../../../src/core/file/fileTypes.js';
 import { filterOutUntrustedFiles } from '../../../src/core/security/filterOutUntrustedFiles.js';
 import type { SuspiciousFileResult } from '../../../src/core/security/securityCheck.js';

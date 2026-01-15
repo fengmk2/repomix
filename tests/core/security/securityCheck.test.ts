@@ -1,7 +1,7 @@
 // src/core/security/securityCheck.test.ts
 
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import pc from 'picocolors';
-import { describe, expect, it, vi } from 'vitest';
 import type { RawFile } from '../../../src/core/file/fileTypes.js';
 import type { GitDiffResult } from '../../../src/core/git/gitDiffHandle.js';
 import { runSecurityCheck } from '../../../src/core/security/securityCheck.js';
