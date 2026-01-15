@@ -114,9 +114,9 @@
     "secretlint": "^11.2.5",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-d020050c545758ca24151ced337fb79a33ad16d5",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-d020050c545758ca24151ced337fb79a33ad16d5",
-    "@voidzero-dev/vite-plus": "0.0.0-d020050c545758ca24151ced337fb79a33ad16d5"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb",
+    "@voidzero-dev/vite-plus": "0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb"
   },
   "engines": {
     "node": ">=20.0.0",
@@ -124,7 +124,7 @@
   },
   "packageManager": "npm@11.7.0",
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-d020050c545758ca24151ced337fb79a33ad16d5",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-d020050c545758ca24151ced337fb79a33ad16d5"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb"
   }
 }
